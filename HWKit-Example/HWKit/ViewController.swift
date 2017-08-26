@@ -14,12 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let str = "我爱Swift"
+        let str = "我爱Swift厦门"
         let str2 = "Hello Swift"
-        
-        
-        str.characters.map { print($0) }
-        str.unicodeScalars.map { print($0) }
         
         print(str.hasIncludeChinese)
         print(str2.hasIncludeChinese)
